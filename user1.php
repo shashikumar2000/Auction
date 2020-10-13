@@ -9,10 +9,8 @@ if (mysqli_num_rows($rs)>0)
 	echo "<br><br><br><div class=head1>Login Id Already Exists</div>";
 	exit;
 }
-    $query = "INSERT INTO regis (firstname,surname,username,phone,email,password,location,Aadhar,gender,s) values ('$firstname','$lastname','$uname','$phno','$email','$psw','$location','$ano','$gender','$s')";
-if($s==sell)
-header("location:sellform.php");
-else
+    $query = "INSERT INTO regis (firstname,surname,username,phone,email,password,location,Aadhar,gender) values ('$firstname','$lastname','$uname','$phno','$email','$psw','$location','$ano','$gender')";
+
 header("location: home1.php");
 //echo($query);
 //die();

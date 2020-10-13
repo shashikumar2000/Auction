@@ -167,16 +167,10 @@ User name:<br>
 <div style="color:green;font-weight:bold;" id="105"></div></p><p class="two">
  Email:<br>
   <input type="text" name="email" size=50 onclick="fun5()"><br><br>
-<div style="color:green;font-weight:bold;" id="106"></div></p><p class="two">
-Location:<br>
-  <select id="loc" name="location" onclick="fun1()" >
-<option value="brc" onclick="fun6()">Select</option>
-<option value="del" onclick="fun6()">DELHI</option>
-<option value="mum" onclick="fun6()">MUMBAI</option>
-<option value="hyd" onclick="fun6()">HYDERABAD</option>
-<option value="bang" onclick="fun6()">BANGALORE</option>
-<option value="kol" onclick="fun6()">KOLKATA</option>
-<option value="oth" onclick="fun6()">OTHERS</option>
+<div style="color:green;font-weight:bold;" id="106"></div></p><p Class="two">
+Location: <br>
+    <input type = "text" id="loc" name="location" onclick="fun1()" >
+<div style = "color:green;font-weight:bold;" id="106"></div></p><p Class="two">
 </select>
 <h4 id="101" style="color:red"></h4>
 </p>
@@ -193,12 +187,9 @@ Aadhaar card no:<br>
     Select Gender:<br>
   <input type="radio" name="gender" value="male" onclick="fun3()"> Male<br>
   <input type="radio" name="gender" value="female" onclick="fun3()"> Female<br>
-  <input type="radio" name="gender" value="other" onclick="fun3()"> Other<br><br>
-Select Action:<br>
-  <input type="radio" name="s" value="sell" > SELL<br>
-  <input type="radio" name="s" value="bid"> BID<br> </p><br>
-  <input type="reset" style="width:100px;height:40px;" name="r1" value="CLEAR">&nbsp;&nbsp;&nbsp;&nbsp;
-   <input type="submit" value="submit" placeholder="signup" name="submit1" style="width:100px;height:40px;background-color:#ff4436;" onclick="funs()"/>
+  <input type = "radio" name="gender" value="other" onclick="fun3()"> Other<br><br>
+  <input type = "reset" style="width:100px;height:40px;" name="r1" value="CLEAR">&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type = "submit" value="submit" placeholder="signup" name="submit1" style="width:100px;height:40px;background-color:#ff4436;" onclick="funs()"/>
 
 </form>
 </td>
