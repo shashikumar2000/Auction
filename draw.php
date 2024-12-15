@@ -15,7 +15,7 @@ else{alert("Your cost must be more than current cost.");}
                  border: 3px solid #583f03; 
                 border-collapse: collapse; 
                  
-            } 
+            }  <!-- cmt1 -->
 p{font-size:20; color:#583f03; text-align:middle;}
 div{background-color:white; top:25px;}
 </style> <!-- -->
@@ -33,7 +33,7 @@ div{background-color:white; top:25px;}
 <p>SIZE : 6"x4"<br>
 8192 Levels of pressure sensitivity<br>
 Battery Free Stylus<br>
-Black color
+Black color 
 Used for :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7 months
 <form name="f1">
     
