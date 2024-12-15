@@ -5,4 +5,4 @@
 <frame name="fr2" src="into.php">
 <frame name="fr3" src="copyright.php">
 </frameset>
-</html>
+</html> <!-- -->
