@@ -18,7 +18,7 @@ else{alert("Your cost must be more than current cost.");}
             } 
 p{font-size:20; color:#583f03; text-align:middle;}
 div{background-color:white; top:25px;}
-</style> 
+</style> <!-- -->
 </head>
 <body bgcolor="#fceecd" align="center" >
 <br>
